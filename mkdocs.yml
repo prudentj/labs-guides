@@ -34,6 +34,5 @@ extra:
 
 nav:
     - Home: 'index.md'
-    - Git Workflow Basics: topics/git-workflow-basic.md
     - Writing Standards: topics/writing-standards.md
     
