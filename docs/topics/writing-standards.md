@@ -33,7 +33,7 @@ A simple, clear overview of what the reader should gain by reading the guide.
 
 ### Chapters
 
-One or more chapters as walking the user thruough steps to completion.
+One or more chapters for walking the user thruough steps to completion.
 
 ---
 
