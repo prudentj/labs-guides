@@ -28,3 +28,5 @@ Engineering staff and if approved, will become part of the Labs Guides.
     - `> npm install -g markdownlint-cli`
 - run the linter
     - `> markdownlint -c .markdownlint.json .`
+
+> All python packages should be added to the Pipfile and requirements.txt
