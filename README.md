@@ -9,6 +9,12 @@ site generator.
 
 [Generated Website](https://lambda-school-labs.github.io/labs-guides/)
 
+## Contributions
+
+Contributions, suggestions and comments are welcome from anyone in the form of a
+PR and github issues. The Pull Request will be reviewed by Lambda Labs
+Engineering staff and if approved, will become part of the Labs Guides.
+
 ## Getting Started with local dev
 
 - install pipenv
