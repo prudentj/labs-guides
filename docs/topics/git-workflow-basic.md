@@ -75,7 +75,7 @@ it good.
 
 Making sure to use the template to provide a professional description
 (seriously copy the description from the trello card, right) summarizing the
-actual work in the PR, let’s create a PR using the **staging** branch as the
+actual work in the PR, let’s create a PR using the **master** branch as the
 **base**.
 
 ![github draft PR](/img/git-workflow-basic/github-draft-pr.gif
