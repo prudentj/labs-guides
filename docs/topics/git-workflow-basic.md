@@ -117,10 +117,8 @@ from the merge button and lets get our QA started.
 
 If you find yourself with a merge conflict there are a number of ways to solve
 it. The github tools are very handy or you can do it locally. When going down
-the local path there is a good set of instructions at [https://help.github.
-com/en/github/collaborating-with-issues-and-pull-requests/about-pull-request
--merges](https://help.github.com/en/github/collaborating-with-issues-and-pull
--requests/about-pull-request-merges)
+the local path there is a good set of instructions at
+[About pull request merges](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-request-merges)
 
 Deploy to your staging environment if you don’t have automatic deployment
 setup. You and the team can now Qa the app walking through as many scenarios
@@ -140,12 +138,11 @@ Alternatively you can use --interactive if you have commits that you’d like
 to **squash**.
 
 > git checkout master
-> 
+>
 > git merge staging
-> 
+>
 > git push
 
 And now your code changes are on the master branch, ready to wow users with
 your updates. Deploy your code and be ready to support any issues that
 arise.
-
