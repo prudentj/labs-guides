@@ -9,7 +9,7 @@ of products.
 ## Guides
 
 The guides will be devided into separate categories. A category corresponds
-to a specific area of concern in the engineering standards. The categories 
+to a specific area of concern in the engineering standards. The categories
 can all be viewed in the menu at the top of the page.
 
 ## Completeness

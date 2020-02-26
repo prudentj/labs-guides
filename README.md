@@ -1,3 +1,5 @@
+# Labs Guides
+
 This repository contains the [Lambda School](https://lambdaschool.com/) Labs
 Guides. The Guides are in [MarkDown](https://daringfireball.net/projects/markdown/)
 format and structured to be converted into a static HTML website using the [MkDocs](https://www.mkdocs.org/)
