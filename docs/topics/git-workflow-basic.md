@@ -39,7 +39,8 @@ can easily make sense of it.
 
 > git checkout -b [new_branch_name]
 
-![Starting a new branch](/img/git-workflow-basic/git-checkout-1.png "start a new branch")
+![Starting a new branch](/img/git-workflow-basic/git-checkout-1.png
+"start a new branch")
 
 ## Sharing Is Good
 
@@ -61,7 +62,8 @@ or
     to your git config. Yay. Now you can easily push your commits to the remote
     branch by git push. Easy.
 
-![push new branch to remote](/img/git-workflow-basic/git-push-1.png "pushing new branch to remote")
+![push new branch to remote](/img/git-workflow-basic/git-push-1.png
+"pushing new branch to remote")
 
 The next step is to create a draft PR *(Pull Request)* **after you’ve created
 your first commit**. Github created this mode so that notifications will be
@@ -76,7 +78,8 @@ Making sure to use the template to provide a professional description
 actual work in the PR, let’s create a PR using the **staging** branch as the
 **base**.
 
-![github draft PR](/img/git-workflow-basic/github-draft-pr.gif "github draft PR")
+![github draft PR](/img/git-workflow-basic/github-draft-pr.gif
+"github draft PR")
 
 ## We have lift off
 
@@ -95,7 +98,8 @@ When you feel you’ve completed the task you’ve been working on it’s time t
 update the description, take the PR out of draft mode and make it **“ready
 for review”**.
 
-![make PR ready for review](/img/git-workflow-basic/github-ready-pr.png "Make PR ready for review")
+![make PR ready for review](/img/git-workflow-basic/github-ready-pr.png
+"Make PR ready for review")
 
 And just like that, the team will be notified of the PR and they can start
 a review and it can be merged.
@@ -113,7 +117,8 @@ Even though you branched off of master your PR was created using stage as
 the base. If there are no conflicts to be resolved choose “Rebase and merge”
 from the merge button and lets get our QA started.
 
-![merge into master](/img/git-workflow-basic/github-merge.png "Rebase and merge into master")
+![merge into master](/img/git-workflow-basic/github-merge.png
+"Rebase and merge into master")
 
 If you find yourself with a merge conflict there are a number of ways to solve
 it. The github tools are very handy or you can do it locally. When going down
