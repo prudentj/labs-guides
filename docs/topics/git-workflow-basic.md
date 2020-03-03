@@ -111,11 +111,12 @@ a review and it can be merged.
 It’s really good practice to take the time to make comments in the code, even
 if they are positive notes on good work your teammate did.
 
-## Using your stage before returning to master
+## QA changes on stage before merging to master
 
-Even though you branched off of master your PR was created using stage as
-the base. If there are no conflicts to be resolved choose “Rebase and merge”
-from the merge button and lets get our QA started.
+Since you branched off of master your PR should be tested on stage prior
+to approving and merging. If there are no issues found on stage and no
+conflicts to be resolved in the code choose “Rebase and merge” or "Squash
+and merge" from the merge button and lets get onto master.
 
 ![merge into master](../../img/git-workflow-basic/github-merge.png
 "Rebase and merge into master")
@@ -125,29 +126,6 @@ it. The github tools are very handy or you can do it locally. When going down
 the local path there is a good set of instructions at
 [About pull request merges](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-request-merges)
 
-Deploy to your staging environment if you don’t have automatic deployment
-setup. You and the team can now Qa the app walking through as many scenarios
-as possible, making sure there aren’t any unintended reactions from the rest
-of the code/system.
-
-## Heading home
-
-When QA has been successful, it’s time to merge to master and deploy. Given
-that changes may have occurred due to hotfixes (or team members that have
-committed directly on master, you have permission to slap them 🤬)
-**rebase** master into your branch.
-
-> git rebase master
-
-Alternatively you can use --interactive if you have commits that you’d like
-to **squash**.
-
-> git checkout master
->
-> git merge staging
->
-> git push
-
 And now your code changes are on the master branch, ready to wow users with
-your updates. Deploy your code and be ready to support any issues that
-arise.
+your updates. Deploy your code (if not automatically handled by github events)
+and be ready to support any issues that arise.
