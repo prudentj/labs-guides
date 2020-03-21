@@ -14,6 +14,7 @@ Each guide will follow the following template:
 ## Guide Objective
   - summary
   - technologies discussed
+  - references
 
 ## Chapters
   - ...
