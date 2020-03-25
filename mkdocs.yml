@@ -35,5 +35,6 @@ extra:
 nav:
     - Home: 'index.md'
     - Basic git workflow: topics/git-workflow-basic.md
+    - HTTPS/SSL Support: topics/https-ssl-support.md
     - Writing Standards: topics/writing-standards.md
     
