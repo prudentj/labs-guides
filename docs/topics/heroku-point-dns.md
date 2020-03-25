@@ -44,12 +44,18 @@ Heroku using PointDNS.
 
 1. Find a domain on Namecheap that cost less than $15/year
 2. Add the PointDNS Add-on to the production Heroku app (see Notes on PointDNS)
-> `> heroku addons:create pointdns:developer -a app-name-fe-prod`
+
+    > `> heroku addons:create pointdns:developer -a app-name-fe-prod`
+
 3. Add the domain to the Heroku app to get the **DNS target**
-> `> heroku domains:add example.com -a app-name-fe-prod`
+
+    > `> heroku domains:add example.com -a app-name-fe-prod`
+
 4. Keep the terminal open. You will need the **DNS target** which will look
 something like this
-> `> tranquil-brook-randomString.herokudns.com`
+
+    > tranquil-brook-randomString.herokudns.com
+
 5. Log into PointDNS from Heroku by clicking on the PointDNS Add-on in the
 Heroku dashboard
 6. Click on the domain
@@ -65,11 +71,13 @@ below and 4 nameservers from the PointDNS pool
 
 Use this template for submitting custom domain requests to your SL.
 
-```
-Domain Name: 
-Name Servers:
-1. 
-2.
-3.
-4.
-```
+!!! Example
+
+    ``` json
+    Domain Name:
+    Name Servers:
+    1.
+    2.
+    3.
+    4.
+    ```
