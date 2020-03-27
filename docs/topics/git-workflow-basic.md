@@ -8,8 +8,6 @@ time to time.
 
 ## Objective
 
-### Summary
-
 We will walk through the basic steps of starting and finishing a feature or
 task in git and github.com.
 
@@ -17,6 +15,11 @@ task in git and github.com.
 
 - git cli
 - github.com Pull Requests
+
+### References
+
+- ![git-scm.com](https://git-scm.com/)
+- ![Github Pull Requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
 
 ## Getting Started
 
