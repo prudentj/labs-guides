@@ -34,6 +34,7 @@ extra:
 
 nav:
     - Home: 'index.md'
-    - Basic git workflow: topics/git-workflow-basic.md
+    - Git, The Labs workflow: topics/git-workflow-basic.md
+    - Git, rebasing a feature branch: topics/git-rebase-feature-branch.md
     - Writing Standards: topics/writing-standards.md
     
