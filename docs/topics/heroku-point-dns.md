@@ -7,7 +7,7 @@ with the Lambda Labs domain name process.
 
 ## Objective
 
-Establish a path to adding a custom domain for projects hosted on Heroku for 
+Establish a path to adding a custom domain for projects hosted on Heroku for
 free while remaining Labs Compliant.
 
 !!! Info
