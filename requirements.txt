@@ -13,7 +13,7 @@
 markdown==3.2.1
 mkdocs-git-committers-plugin-2==0.3.3
 mkdocs-material==4.6.3
-mkdocs-minify-plugin==0.2.3
+mkdocs-minify-plugin==0.2.1
 mkdocs==1.1
 pygments==2.5.2
 pymdown-extensions==6.3
