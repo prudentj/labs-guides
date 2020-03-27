@@ -17,8 +17,15 @@ Engineering staff and if approved, will become part of the Labs Guides.
 
 ## Getting Started with local dev
 
-- install pipenv
-    - `> brew install pipenv`
+> All steps below are based on the use of [pipenv](https://pipenv.kennethreitz.org/en/latest/)
+>
+>- on mac: `> brew install pipenv`
+>
+> The github actions still require a `requirements.txt` file so if you add
+> anything to the `Pipfile` you will need to generate a new `requirements.txt` file
+>
+>- `> pipenv run pipenv_to_requirements -f`
+
 - `> pipenv install --dev`
 - `> pipenv shell`
     - start a shell with a virtual environment
@@ -28,5 +35,3 @@ Engineering staff and if approved, will become part of the Labs Guides.
     - `> npm install -g markdownlint-cli`
 - run the linter
     - `> markdownlint -c .markdownlint.json .`
-
-> All python packages should be added to the Pipfile and requirements.txt
