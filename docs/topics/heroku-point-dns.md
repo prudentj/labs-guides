@@ -7,10 +7,8 @@ with the Lambda Labs domain name process.
 
 ## Objective
 
-### Summary
-
-We will walk through the basic steps of setting up a free custom domain with
-Heroku using PointDNS.
+Establish a path to adding a custom domain for projects hosted on Heroku for 
+free while remaining Labs Compliant.
 
 !!! Info
     Heroku requires a credit card on file to activate PointDNS (as well as to
