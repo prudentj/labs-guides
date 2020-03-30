@@ -1,5 +1,8 @@
 site_name: 'Labs Guides'
 site_description: 'Labs guides for Lambda X teams'
+site_author: 'Lambda Labs Staff'
+site_url: 'https://lambda-school-labs.github.io/labs-guides/'
+
 repo_name: 'Lambda-School-Labs/labs-guides'
 repo_url: 'https://github.com/Lambda-School-Labs/labs-guides'
 
@@ -18,14 +21,31 @@ markdown_extensions:
         emoji_index: !!python/name:pymdownx.emoji.twemoji
         emoji_generator: !!python/name:pymdownx.emoji.to_svg
 
+plugins:
+    - search
+    - minify:
+        minify_html: true
+    - git-committers:
+        repository: Lambda-School-Labs/labs-guides
+        branch: master
+        token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
+
 theme:
     name: 'material'
+    custom_dir: docs/assets/theme/
     favicon: 'img/favicon.png'
     palette:
         primary: 'red'
         accent: 'pink'
     logo:
         icon: 'explore'
+    font:
+        text: 'Roboto'
+        code: 'Roboto Mono'
+extra_css:
+    - 'assets/stylesheets/contributors.css'
+extra_javascript:
+    - 'assets/javascripts/contributors.js'
 
 extra:
     social:
@@ -34,7 +54,8 @@ extra:
 
 nav:
     - Home: 'index.md'
-    - Basic git workflow: topics/git-workflow-basic.md
+    - Git, The Labs workflow: topics/git-workflow-basic.md
+    - Git, rebasing a feature branch: topics/git-rebase-feature-branch.md
     - Heroku PointDNS: topics/heroku-point-dns.md
     - Writing Standards: topics/writing-standards.md
     

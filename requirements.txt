@@ -1,3 +1,19 @@
-mkdocs-material==4.6.0
-Pygments==2.5.2
-pymdown-extensions==6.2.1
+################################################################################
+# This requirements file has been automatically generated from `Pipfile` with
+# `pipenv-to-requirements`
+#
+#
+# This has been done to maintain backward compatibility with tools and services
+# that do not support `Pipfile` yet.
+#
+# Do NOT edit it directly, use `pipenv install [-d]` to modify `Pipfile` and
+# `Pipfile.lock` and then regenerate `requirements*.txt`.
+################################################################################
+
+markdown==3.2.1
+mkdocs-git-committers-plugin-2==0.3.3
+mkdocs-material==4.6.3
+mkdocs-minify-plugin==0.2.1
+mkdocs==1.1
+pygments==2.5.2
+pymdown-extensions==6.3

@@ -4,11 +4,17 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+v = {editable = true,version = "*"}
 
 [packages]
-mkdocs-material = "==4.6.0"
-pymdown-extensions = "==6.2.1"
-Pygments = "==2.5.2"
+markdown           = "==3.2.1"
+mkdocs             = "==1.1"
+mkdocs-material    = "==4.6.3"
+pymdown-extensions = "==6.3.0"
+Pygments           = "==2.5.2"
+mkdocs-git-committers-plugin-2 = "==0.3.3"
+mkdocs-minify-plugin = "*"
+pipenv-to-requirements = "*"
 
 [requires]
 python_version = "3.7"
