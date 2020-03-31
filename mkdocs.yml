@@ -57,5 +57,6 @@ nav:
     - Git, The Labs workflow: topics/git-workflow-basic.md
     - Git, rebasing a feature branch: topics/git-rebase-feature-branch.md
     - Heroku PointDNS: topics/heroku-point-dns.md
+    - HTTPS/SSL Support: topics/https-ssl-support.md
     - Writing Standards: topics/writing-standards.md
     
