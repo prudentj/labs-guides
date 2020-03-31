@@ -18,8 +18,8 @@ task in git and github.com.
 
 ### References
 
-- ![git-scm.com](https://git-scm.com/)
-- ![Github Pull Requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
+- [git-scm.com](https://git-scm.com/)
+- [Github Pull Requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
 
 ## Getting Started
 
