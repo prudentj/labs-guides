@@ -1,6 +1,6 @@
 # Labs Guides
 
-![Publish docs via GitHub Pages](https://github.com/Lambda-School-Labs/labs-guides/workflows/Publish%20docs%20via%20GitHub%20Pages/badge.svg)
+![Publish docs via GitHub Pages](https://github.com/Lambda-School-Labs/labs-guides/workflows/Publish%20docs%20via%20GitHub%20Pages/badge.svg?branch=master)
 
 This repository contains the [Lambda School](https://lambdaschool.com/) Labs
 Guides. The Guides are in [MarkDown](https://daringfireball.net/projects/markdown/)
