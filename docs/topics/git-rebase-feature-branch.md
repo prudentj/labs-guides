@@ -13,7 +13,7 @@ the current HEAD of the master branch. Think of it as if you are starting a new
 branch based on the current master and pasting all of your commits to the new
 branch.
 
-![Rebasing a feature branch](../../img/git-rebase/git-rebase.svg
+![Rebasing a feature branch](/assets/images/git-rebase/git-rebase.svg
 "rebase a branch")
 
 !!! warning
