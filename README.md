@@ -33,5 +33,5 @@ Engineering staff and if approved, will become part of the Labs Guides.
     - `#> mkdocs build`
 - install markdown linter
     - `> npm install -g markdownlint-cli`
-- run the linter
+- run the linter before commits
     - `> markdownlint -c .markdownlint.json .`
