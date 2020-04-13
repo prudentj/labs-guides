@@ -34,7 +34,7 @@ free while remaining Labs Compliant.
 
     Domain names are resolved using what is known as nameservers. Nameservers are
     servers that match domain names with targets (IP addresses). Nameservers allow
-    users to visit [google.com](http://google.com) from anywhere in the world and
+    users to visit google.com from anywhere in the world, for instance, and
     be connected to a google server geographically close to the user. The actual
     IP address can changes, but the domain name doesn't.
 

@@ -55,10 +55,10 @@ extra:
 nav:
     - Home: 'index.md'
     - Git:
-        - The Labs workflow: topics/git-workflow-basic.md
-        - rebasing a feature branch: topics/git-rebase-feature-branch.md
+        - The Labs Workflow: topics/git-workflow-basic.md
+        - Rebasing a Feature Branch: topics/git-rebase-feature-branch.md
     - Deployment:
-        - Heroku PointDNS: topics/heroku-point-dns.md
         - AWS Amplify Frontend: topics/aws-amplify-deploy.md
+        - Heroku PointDNS: topics/heroku-point-dns.md
+        - HTTPS/SSL Support: topics/https-ssl-support.md
     - Writing Standards: topics/writing-standards.md
-    
