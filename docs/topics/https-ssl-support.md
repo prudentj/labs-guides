@@ -30,10 +30,10 @@ connecting it to your custom Heroku domain.
 1. Create a free account on Cloudflare.com
 2. Enter your site's custom domain name, then continue
 3. Select the free plan, then continue
-    ![Cloudflare screen 1](../img/https-ssl-support/cloudflare-screen-01.png
+    ![Cloudflare screen 1](../assets/images/https-ssl-support/cloudflare-screen-01.png
 "Cloudflare screen 1")
 4. Copy the two new name servers provided
-    ![Cloudflare nameservers screenshot](../img/https-ssl-support/cloudflare-screen-02.png
+    ![Cloudflare nameservers screenshot](../assets/images/https-ssl-support/cloudflare-screen-02.png
 "Cloudflare nameservers screenshot")
 5. Send the new name servers to your SL with the template, below
 

@@ -12,9 +12,17 @@ Each guide will follow the following template:
 # <Title>
 
 ## Guide Objective
-  - summary
-  - technologies discussed
-  - references
+
+summary statment
+
+### technologies discussed
+
+  - list of technologies used
+  - optional glossary
+
+### references
+  
+  - list of links
 
 ## Chapters
   - ...
