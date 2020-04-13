@@ -8,6 +8,8 @@ jobs:
   build:
     name: Deploy docs
     runs-on: ubuntu-latest
+    env:
+      PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
     steps:
       - name: Checkout current branch
         uses: actions/checkout@v1
@@ -28,15 +30,11 @@ jobs:
 
       - name: Run mkdocs build
         run: pipenv run mkdocs build
-        env:
-          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
       
       - name: Setup git origin for deploy
         run: |
           git remote rm origin
-          git remote add origin "https://x-access-token:${secrets.PERSONAL_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git remote add origin "https://x-access-token:${PERSONAL_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
       - name: Run mkdocs gh-deploy
         run: pipenv run mkdocs gh-deploy
-        env:
-          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
   
