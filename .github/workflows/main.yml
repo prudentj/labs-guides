@@ -11,10 +11,6 @@ jobs:
     steps:
       - name: Checkout current branch
         uses: actions/checkout@v1
-      - name: Setup Python
-        uses: actions/setup-python@v1
-        with:
-          python-version: '3.7'
       
       - uses: actions/setup-node@master
       - name: Install markdownlint-cli
@@ -22,19 +18,23 @@ jobs:
       - name: Run markdownlint
         run: node_modules/.bin/markdownlint . --config .markdownlint.json --ignore node_modules
 
+      - name: Setup Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.7'
       - uses: dschep/install-pipenv-action@v1
       - name: Pipenv install
         run: pipenv install
-
-      - name: Debug install
-        run: |
-          pipenv run pip list
 
       - name: Run mkdocs build
         run: pipenv run mkdocs build
         env:
           PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
       
+      - name: Setup git origin for deploy
+        run: |
+          git remote rm origin
+          git remote add origin "https://x-access-token:${secrets.PERSONAL_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
       - name: Run mkdocs gh-deploy
         run: pipenv run mkdocs gh-deploy
         env:

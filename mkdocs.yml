@@ -28,7 +28,7 @@ plugins:
     - git-committers:
         repository: Lambda-School-Labs/labs-guides
         branch: master
-        token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
+        token: !!python/object/apply:os.getenv ["PERSONAL_TOKEN"]
 
 theme:
     name: 'material'
