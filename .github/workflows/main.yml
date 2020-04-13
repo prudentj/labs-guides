@@ -16,8 +16,10 @@ jobs:
         with:
           python-version: '3.7'
       
+      - uses: dschep/install-pipenv-action@v1
+
       - name: Pipenv install
-        uses: dschep/install-pipenv-action@v1
+        run: pipenv install
 
       - name: Run markdownlint
         run: pipenv run markdownlint . --config .markdownlint.json
