@@ -1,4 +1,4 @@
-name: Publish docs via GitHub Pages
+name: Build mkdocs and Publish to Github Pages
 on:
   pull_request:
   push:
@@ -32,16 +32,10 @@ jobs:
       - name: Run mkdocs build
         run: pipenv run mkdocs build
       
-  deploy:
-    name: Deploy docs to gh-pages
-    runs-on: ubuntu-latest
-    needs: build
-    if: success() && github.event_name == 'push'
-    env:
-      PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-    steps:
       - name: Setup git origin for deploy
+        if: github.event_name == 'push'
         run: git remote add deploy "https://x-access-token:${PERSONAL_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-      - name: Run mkdocs gh-deploy
+      - name: Deploy to Gihub Pages
+        if: github.event_name == 'push'
         run: pipenv run mkdocs gh-deploy --config-file "${GITHUB_WORKSPACE}/mkdocs.yml" --remote-name deploy --force
   
