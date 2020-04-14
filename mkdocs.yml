@@ -60,5 +60,5 @@ nav:
     - Deployment:
         - AWS Amplify Frontend: topics/aws-amplify-deploy.md
         - Heroku PointDNS: topics/heroku-point-dns.md
-        - HTTPS/SSL Support: topics/https-ssl-support.md
+        - Setup HTTPS/SSL: topics/https-ssl-support.md
     - Writing Standards: topics/writing-standards.md
