@@ -51,15 +51,16 @@ free while remaining Labs Compliant.
 
 4. Keep the terminal open. You will need the **DNS target** which will look
 something like this
-
-    > tranquil-brook-randomString.herokudns.com
-
+    ![Heroku-domains](../assets/images/heroku-point-dns/heroku-domains.png
+    "Heroku domains command")
 5. Log into PointDNS from Heroku by clicking on the PointDNS Add-on in the
 Heroku dashboard
 6. Click on the domain
-7. Edit the CNAME record
-    - Name should be the domain name you entered on Step 3
-    - Data is the DNS target you created on Step 3
+7. Edit the CNAME record by clicking the edit button (this will bring up the
+Edit Zone Record modal)
+    - Hostname is the DNS target you created on Step 3
+    ![Edit Zone Record](../assets/images/heroku-point-dns/edit-zone-record.png
+    "Edit zone record modal")
 8. Click on Nameservers, copy 4 nameservers
 9. Send a message to your SL with the Domain to be purchased using the template
 below and 4 nameservers from the PointDNS pool
