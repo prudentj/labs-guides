@@ -13,7 +13,7 @@ Each guide will follow the following template:
 
 ## Guide Objective
 
-summary statment
+summary statement
 
 ### technologies discussed
 
@@ -42,7 +42,7 @@ A simple, clear overview of what the reader should gain by reading the guide.
 
 ### Chapters
 
-One or more chapters for walking the user thruough steps to completion.
+One or more chapters for walking the user through steps to completion.
 
 ---
 

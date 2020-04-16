@@ -61,4 +61,5 @@ nav:
         - AWS Amplify Frontend: topics/aws-amplify-deploy.md
         - Heroku PointDNS: topics/heroku-point-dns.md
         - Setup HTTPS/SSL: topics/https-ssl-support.md
+    - ESLint and Prettier: topics/eslint-prettier-setup.md
     - Writing Standards: topics/writing-standards.md
