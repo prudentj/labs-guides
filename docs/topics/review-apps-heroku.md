@@ -6,7 +6,7 @@ Heroku deploys the HEAD commit of the branch that the associated Pull Request is
 
 *** Setting Up Review Apps Steps ***
 
-1. Create a Pipeline by going to `new` and clicking the dropdown then clicking on `create new Pipeline`
+1. Create a Pipeline by going to your heroku ashboard and going to `new` and clicking the dropdown then clicking on `create new Pipeline`
 
 2. Make sure to add the repo you want to connect the Review Apps Pipeline to 
 
