@@ -16,4 +16,5 @@ Heroku deploys the HEAD commit of the branch that the associated Pull Request is
     * `Automatically create review apps for new PRs`
     * `Destroy stale review apps automatically` - set to preferred time frame
 
+
 For more information visit: https://devcenter.heroku.com/articles/github-integration-review-apps#configuration
