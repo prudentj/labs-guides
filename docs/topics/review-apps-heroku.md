@@ -1,6 +1,6 @@
 # Setting Up Review Apps On Heroku
 
-## Why Use Review Apps Pipeline
+## Why Use Review Apps Pipeline 🔥
 
 The Review Apps Heroku Pipeline would allow one not to have to use the Heroku remote to push to the staging server on Heroku. Overall, this should allow one to increase workload capacity since the Review Apps Pipeline could cut out the learning curve of deploying to Heroku via the Heroku remote through the CLI.
 
@@ -8,7 +8,7 @@ The Review Apps Heroku Pipeline would allow one not to have to use the Heroku re
 
 Heroku deploys the HEAD commit of the branch that the associated Pull Request is created on. When the branch is updated Heroku redeploys to the connected repo on the Review Apps Pipeline with your latest commit.
 
-### Setting Up Review Apps Steps
+### Setting Up Review Apps Steps ✅
 
 1. Create a Pipeline by going to your Heroku dashboard, going to `new`, clicking the dropdown, and clicking on `create new Pipeline`
 
