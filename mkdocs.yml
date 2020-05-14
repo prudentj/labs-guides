@@ -1,65 +1,67 @@
-site_name: 'Labs Guides'
-site_description: 'Labs guides for Lambda X teams'
-site_author: 'Lambda Labs Staff'
-site_url: 'https://lambda-school-labs.github.io/labs-guides/'
+site_name: "Labs Guides"
+site_description: "Labs guides for Lambda X teams"
+site_author: "Lambda Labs Staff"
+site_url: "https://lambda-school-labs.github.io/labs-guides/"
 
-repo_name: 'Lambda-School-Labs/labs-guides'
-repo_url: 'https://github.com/Lambda-School-Labs/labs-guides'
+repo_name: "Lambda-School-Labs/labs-guides"
+repo_url: "https://github.com/Lambda-School-Labs/labs-guides"
 
 markdown_extensions:
-    - tables
-    - admonition
-    - codehilite:
-        linenums: true
-    - toc:
-        permalink: true
-    - pymdownx.superfences
-    - pymdownx.betterem:
-        smart_enable: all
-    - pymdownx.details
-    - pymdownx.emoji:
-        emoji_index: !!python/name:pymdownx.emoji.twemoji
-        emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - tables
+  - admonition
+  - codehilite:
+      linenums: true
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
 
 plugins:
-    - search
-    - minify:
-        minify_html: true
-    - git-committers:
-        repository: Lambda-School-Labs/labs-guides
-        branch: master
-        token: !!python/object/apply:os.getenv ["PERSONAL_TOKEN"]
+  - search:
+  - minify:
+      minify_html: true
+  - git-committers:
+      repository: Lambda-School-Labs/labs-guides
+      branch: master
+      token: !!python/object/apply:os.getenv ["PERSONAL_TOKEN"]
 
 theme:
-    name: 'material'
-    custom_dir: docs/assets/theme/
-    favicon: 'assets/images/favicon.png'
-    palette:
-        primary: 'red'
-        accent: 'pink'
-    logo:
-        icon: 'explore'
-    font:
-        text: 'Roboto'
-        code: 'Roboto Mono'
+  name: "material"
+  custom_dir: docs/assets/theme/
+  favicon: "assets/images/favicon.png"
+  palette:
+    primary: "red"
+    accent: "pink"
+  logo:
+    icon: "explore"
+  font:
+    text: "Roboto"
+    code: "Roboto Mono"
 extra_css:
-    - 'assets/stylesheets/contributors.css'
+  - "assets/stylesheets/contributors.css"
 extra_javascript:
-    - 'assets/javascripts/contributors.js'
+  - "assets/javascripts/contributors.js"
 
 extra:
-    social:
-        - type: 'github'
-          link: 'https://github.com/lambda-school-labs'
+  social:
+    - type: "github"
+      link: "https://github.com/lambda-school-labs"
 
 nav:
-    - Home: 'index.md'
-    - Git:
-        - The Labs Workflow: topics/git-workflow-basic.md
-        - Rebasing a Feature Branch: topics/git-rebase-feature-branch.md
-    - Deployment:
-        - AWS Amplify Frontend: topics/aws-amplify-deploy.md
-        - Heroku PointDNS: topics/heroku-point-dns.md
-        - Setup HTTPS/SSL: topics/https-ssl-support.md
-    - ESLint and Prettier: topics/eslint-prettier-setup.md
-    - Writing Standards: topics/writing-standards.md
+  - Home: "index.md"
+  - Git:
+      - The Labs Workflow: topics/git-workflow-basic.md
+      - Rebasing a Feature Branch: topics/git-rebase-feature-branch.md
+  - Deployment:
+      - AWS Amplify Frontend: topics/aws-amplify-deploy.md
+      - Heroku PointDNS: topics/heroku-point-dns.md
+      - Setup HTTPS/SSL: topics/https-ssl-support.md
+      - Review Apps: topics/review-apps-heroku.md
+  - ESLint and Prettier: topics/eslint-prettier-setup.md
+  - Trello Integration: topics/github-trello-integration.md
+  - Writing Standards: topics/writing-standards.md
