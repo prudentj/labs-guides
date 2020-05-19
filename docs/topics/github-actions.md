@@ -16,9 +16,8 @@ Provide an introduction to github actions, continuous integrations, and continuo
 ### Setting up GitHub Actions
 - For every repository on GitHub there is an actions tab, which provides a log of every action performed on the server
 - In your repo .githib folder you will need to have a workflows folder, with each workflow as a .yml file.  GitHub will automatically recognize all .yml files in this folder as workflows.
-![Setting Up Workflow Folders](../assets/images/github-actions/workflowFolder.png "Setting Up Workflow Folders")
 - For each workflow you will want to make a separate .yml folder
-
+![Setting Up Workflow Folders](../assets/images/github-actions/workflowFolder.png "Setting Up Workflow Folders")
 ### Parts of a YML File
 - Example .YML folder
 ![Example YML Folder](../assets/images/github-actions/ymlexample.png "Example YML Folder")
@@ -31,7 +30,7 @@ Provide an introduction to github actions, continuous integrations, and continuo
 - The first two actions are official actions that get our source code into the virtual machine (actions/checkout@v1) and setting up node (actions/setup-node@master). You will see these pretty often and most of your workflows will probably start with these.
 - The rest of the actions you see are custom scripts, or setting up the environment for this project and will vary from project to project. This is a simple continuos deployment example.
 - In this example, we are installing markdownlint to test the formatting of our markdown files, we are setting up a python environment, and we then run a python program called mkdocs that builds simple website from our markdown files. If it was pushed, we then we set up continuous deployment  to deploy to github pages.
-- ![New Secret](../assets/images/github-actions/newSecret.png "New Secret")
+![New Secret](../assets/images/github-actions/newSecret.png "New Secret")
 ### Continuos Deployment
 - The example above was an example of using GitHub Actions for continuous deployment.
 - The purpose of continuous deployment is to push the code that we have written to our customers or a third party quickly and automatically. This allows features and bug fixes to be applied multiple times a day, once it passes our Quality Assurance checks.
