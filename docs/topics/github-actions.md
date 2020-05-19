@@ -11,7 +11,7 @@ Provide an introduction to github actions, continuous integrations, and continuo
 - When a user interacts with a Github repository an event triggers (eg. push request, pull request, merge requests). Developers can use these events to start an automated workflow — A git hub container with a set of instructions or actions.
 - Rather than write actions from scratch, the most common actions have been provided by the Github community each on a repository capable of being forked and modified.
 ![Finding GitHub Actions](../assets/images/github-actions/findingActions.png "Finding GitHub Actions")
--Common use cases for GitHub Actions include Continuous Integration, and Continuous Deployment
+- Common use cases for GitHub Actions include Continuous Integration, and Continuous Deployment
 
 ### Setting up GitHub Actions
 - For every repository on GitHub there is an actions tab, which provides a log of every action performed on the server
@@ -31,7 +31,7 @@ Provide an introduction to github actions, continuous integrations, and continuo
 - The first two actions are official actions that get our source code into the virtual machine (actions/checkout@v1) and setting up node (actions/setup-node@master). You will see these pretty often and most of your workflows will probably start with these.
 - The rest of the actions you see are custom scripts, or setting up the environment for this project and will vary from project to project. This is a simple continuos deployment example.
 - In this example, we are installing markdownlint to test the formatting of our markdown files, we are setting up a python environment, and we then run a python program called mkdocs that builds simple website from our markdown files. If it was pushed, we then we set up continuous deployment  to deploy to github pages.
-![New Secret](../assets/images/github-actions/newSecret.png "New Secret")
+- ![New Secret](../assets/images/github-actions/newSecret.png "New Secret")
 ### Continuos Deployment
 - The example above was an example of using GitHub Actions for continuous deployment.
 - The purpose of continuous deployment is to push the code that we have written to our customers or a third party quickly and automatically. This allows features and bug fixes to be applied multiple times a day, once it passes our Quality Assurance checks.
@@ -44,7 +44,7 @@ Provide an introduction to github actions, continuous integrations, and continuo
 - An in depth walkthrough of writing the test scripts is forthcoming 
  <!--- Replace this with a link when it is written --->
  
-![New Secret](../assets/images/ontinousIntegrationCodeCoverage.png "New Secret")
+![New Secret](../assets/images/github-actions/contIntCodeCov.png "New Secret")
 
 <!--- 
 ### Continuous Deployment
