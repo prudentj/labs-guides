@@ -7,11 +7,12 @@ and continuous delivery
 
 ## Technologies
 
-- Github
+- Github Actions
 
 ### What are Github Actions
 
-Github actions provide developers the ability to automate routine and necessary tasks
+Github actions provide developers the ability to automate routine and necessary tasks.
+This will allow you to spend more time on this things you love (like code 👨‍💻).
 
 When a user interacts with a Github repository an event triggers (eg. push request,
 pull request, merge requests). Developers can use these events to start an
@@ -102,16 +103,20 @@ The purpose of continuos integration is to streamline the process to merge
  developer's code multiple times per day.
 
 For continuous integration to work, every time a pull request is made, GitHub
- will run test script(s), and if any tests or the build fails, the actions will
-have a red x letting us know not to merge the pull request
+ will run test script(s). It also will let you know how they went. 
+ If any tests fail or the build fails, the actions will
+have a red x letting you know that have a little  more work to do.
+  If all the tests pass you will get a little green checkmark ✔ and the
+   reviewers will trust your changes. Yay! 😀
 
 ![New Secret](../assets/images/github-actions/contIntCodeCov.png "New Secret")
 
 The code here uses at the community action paanbati/codeclimate-action to
  integrate with the Lambda Labs code climate.
 
-Should any tests fail upon a pull request it will be apparent before merging
 
-### Links to external 3rd party tutorials
+### Links to external 3rd party tutorials and documentation
+
+- [Github Actions Documentation](https://help.github.com/en/actions)
 
 - [Fireship's GitHub Action's Tutorial](https://www.youtube.com/watch?v=eB0nUzAI7M8&t)
