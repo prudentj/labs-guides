@@ -103,7 +103,7 @@ The purpose of continuos integration is to streamline the process to merge
  developer's code multiple times per day.
 
 For continuous integration to work, every time a pull request is made, GitHub
- will run test script(s). It also will let you know how they went. 
+ will run test script(s). It also will let you know how they went.
  If any tests fail or the build fails, the actions will
 have a red x letting you know that have a little  more work to do.
   If all the tests pass you will get a little green checkmark ✔ and the
@@ -113,7 +113,6 @@ have a red x letting you know that have a little  more work to do.
 
 The code here uses at the community action paanbati/codeclimate-action to
  integrate with the Lambda Labs code climate.
-
 
 ### Links to external 3rd party tutorials and documentation
 
